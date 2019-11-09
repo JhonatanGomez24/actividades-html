@@ -1,0 +1,33 @@
+*{
+margin:0;
+padding:0;
+    font-family: monospace;
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+    background:  #079992;
+    padding-top: 30px;
+    padding-left: 15px;
+   
+}
+#lista_menu{
+    list-style: none;
+}
+
+#lista_menu > li{
+    display:inline-block;
+    color: antiquewhite;
+    font-weight: bold;
+    margin-right: 10px;
+}
+#lista_menu  a:hover{
+    color:blueviolet;
+    transition: 1s;
+    border-bottom: 1px solid #fff;
+}
+#lista_menu > li a{
+    text-decoration: none;
+    color: aliceblue;
+}
